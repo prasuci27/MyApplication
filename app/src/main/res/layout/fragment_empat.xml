@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".text.EmpatFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:padding="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/lima"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="8dp"
+           android:text="@string/lima"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toTopOf="parent"/>
+
+       <ImageView
+           android:id="@+id/ivLima"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:src="@drawable/tujuh"
+           app:layout_constraintTop_toBottomOf="@id/lima"/>
+
+       <TextView
+           android:id="@+id/enam"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="8dp"
+           android:text="@string/enam"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toBottomOf="@id/ivLima"/>
+
+       <ImageView
+           android:id="@+id/ivEnam"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/lapan"
+           app:layout_constraintTop_toBottomOf="@id/enam"/>
+
+
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

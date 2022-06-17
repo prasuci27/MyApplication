@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".text.TigabelasFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:padding="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/lapanbelas"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:justificationMode="inter_word"
+           android:padding="8dp"
+           android:text="@string/lapanbelas"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toTopOf="parent"
+           tools:targetApi="o" />
+
+       <ImageView
+           android:id="@+id/ivLapanbelas"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:src="@drawable/tigasatu"
+           app:layout_constraintTop_toBottomOf="@id/lapanbelas"/>
+
+       <TextView
+           android:id="@+id/sembilanbelas"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:justificationMode="inter_word"
+           android:padding="8dp"
+           android:text="@string/sembilanbelas"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toBottomOf="@id/ivLapanbelas"
+           tools:targetApi="o" />
+
+       <ImageView
+           android:id="@+id/ivSembilanbelas"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/tigadua"
+           app:layout_constraintTop_toBottomOf="@id/sembilanbelas"/>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

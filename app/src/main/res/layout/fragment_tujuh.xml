@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".text.TujuhFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:padding="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/sepuluh"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sepuluh"
+           android:padding="8dp"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toTopOf="parent"/>
+
+       <ImageView
+           android:id="@+id/ivSepuluh"
+           android:layout_width="match_parent"
+           android:layout_height="130dp"
+           android:src="@drawable/empatbelas"
+           app:layout_constraintTop_toBottomOf="@id/sepuluh"/>
+
+       <ImageView
+           android:id="@+id/ivSepuluh1"
+           android:layout_width="match_parent"
+           android:layout_height="130dp"
+           android:src="@drawable/limabelas"
+           app:layout_constraintTop_toBottomOf="@id/ivSepuluh"/>
+
+       <TextView
+           android:id="@+id/sebelas"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/sebelas"
+           android:padding="8dp"
+           android:textColor="@color/black"
+           app:layout_constraintTop_toBottomOf="@id/ivSepuluh1"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:src="@drawable/enambelas"
+           app:layout_constraintTop_toBottomOf="@id/sebelas"/>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

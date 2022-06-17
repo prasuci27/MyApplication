@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".gui.Page13Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/langkah_duasatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/langkah_duasatu"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent" />
+        
+        <ImageView
+            android:id="@+id/ivLangkah_duasatu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ddualima"
+            app:layout_constraintTop_toBottomOf="@id/langkah_duasatu"/>
+
+        <TextView
+            android:id="@+id/langkah_duadua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:justificationMode="inter_word"
+            android:text="@string/langkah_duadua"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_duasatu"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dduaenam"
+            app:layout_constraintTop_toBottomOf="@id/langkah_duadua"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gui.Page11Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/langkah_tujuhbelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/langkah_tujuhbelas"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <ImageView
+            android:id="@+id/ivLangkah_tujuhbelas"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dtujuhbelas"
+            app:layout_constraintTop_toBottomOf="@id/langkah_tujuhbelas"/>
+
+        <TextView
+            android:id="@+id/langkah_lapanbelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/langkah_lapanbelas"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_tujuhbelas"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <ImageView
+            android:id="@+id/ivLangkah_lapanbelas"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dlapanbelas"
+            app:layout_constraintTop_toBottomOf="@id/langkah_lapanbelas"/>
+
+        <ImageView
+            android:id="@+id/ivLangkah_lapanbelas2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dsembilanbelas"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_lapanbelas"/>
+
+        <ImageView
+            android:id="@+id/ivLangkah_lapanbelas3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dduapuluh"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_lapanbelas2"/>
+
+        <ImageView
+            android:id="@+id/ivLangkah_lapanbelas4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dduasatu"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_lapanbelas3"/>
+
+        <ImageView
+            android:id="@+id/ivLangkah_lapanbelas5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dduadua"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_lapanbelas4"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

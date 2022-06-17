@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="school">school</string>
+    <string name="achievement">Achievement</string>
+    <string name="capaian">Capaian</string>
+    <string name="pembelajaran">Pembelajaran</string>
+    <string name="materi">Materi</string>
+    <string name="kuliah">Kuliah</string>
+    <string name="informasi">Informasi</string>
+    <string name="profil">Profil</string>
+    <string name="pengembang">Pengembang</string>
+    <string name="header">Header</string>
+    <string name="lesson">Lesson</string>
+    <string name="instal">Instal Linux Berbasis GUI</string>
+    <string name="instal_text">Instal Linux Berbasis Text</string>
+    <string name="video_linux">Video Linux Berbasis GUI</string>
+    <string name="video_text">Video Linux Berbasis Text</string>
+    <string name="debian">Linux Debian 8</string>
+    <string name="penjelasan_linux">Penjelasan Linux</string>
+    <string name="play">PLAY</string>
+
+    <string name="YOUTUBE_API">AIzaSyB3pvaXY8x0CEiBHvkYEBvO-PluZuuzSuc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="judul">Langkah Instalasi Linux Debian 8 Berbasis Graphical User Interface (GUI)</string>
+
+    <string name="debian_explain">Debian adalah sistem operasi berbasis open source yang di kembangkan secara terbuka oleh banyak programer sukarelawan yang ingin mengembakan debian. Sistem operasi debian adalah gabungan dari perangkat lunak yang dikembangkan dengan lisensi GNU, dan utamanya menggunakan kernel linux, sehingga lebih suka di sebuat dengan nama Debian GNU/Linux. Sistem operasi ini yang mengunakan kernel linux yang merupakan salah satu distro linux yang popular dengan kestabilannya. Debian dibuat oleh Ian Murdock. Pertama kali dirilis pada tanggal 16 Agustus 1993, Debian adalah distribusi Linux yang tidak memiliki tujuan khusus(General Purpose). Spesifikasi minimum perangkat yang dibutuhkan untuk instalasi debian 8 adalah:/na.	Processor : sebaiknya diatas 500 Mhz/nb.	Memory : sebaiknya diatas 512 Mb/nc.	Harddisk : 5 Gb/nd.	NIC 10/100 Mbps : 2 buah (jika mau dibikin router) </string>
+
+    //GUI
+    <string name="langkah_satu">1. Masukkan DVD instalasi Debian 8.6 dan reboot komputer. Kemudian akan muncul tampilan seperti berikut</string>
+    <string name="langkah_dua">2. Berdasarkan gambar di atas, untuk melakukan instalasi berbasis GUI maka pilihlah Graphical install dengan menggunakan tombol panah bawah di keyboard.</string>
+    <string name="langkah_tiga">3. Berikutnya pilihlah bahasa yang diinginkan dalam instalasi, kemudian klik continue. Seperti gambar di bawah ini.</string>
+    <string name="langkah_empat">4. Berikutnya pilihlah lokasi tempat anda berada. Pilihan ini akan menentukan pilihan pengaturan waktu yang akan muncul pada tahapan berikutnya. Pilih other, kemudian klik continue. Seperti gambar berikut ini.</string>
+    <string name="langkah_lima">5. Pilih Asia, kemudian klik continue.</string>
+    <string name="langkah_enam">6. Selanjutnya pilih Indonesia, kemudian klik continue.</string>
+    <string name="langkah_tujuh">7.	Kemudian Pilih layout keyboard yang anda gunakan, biasanya di indonesia kita menggunakan layout US. Klik continue. Perhatikan gambar-gambar berikut ini.</string>
+    <string name="langkah_delapan">8. Berikutnya tunggu sesaat proses yang sedang terjadi.</string>
+    <string name="langkah_sembilan">9. Jika muncul seperti gambar di bawah, maka pilih etho0. Lalu klik continue.</string>
+    <string name="langkah_sepuluh">10. Jika muncul pilihan seperti gambar di bawah ini, maka pilih YES, dan klik continue.</string>
+    <string name="langkah_sebelas">11. Apabila muncul jendela seperti gambar di bawah ini maka dibiarkan saja tidak usah diisi. Kemudian klik continue.</string>
+    <string name="langkah_duabelas">12.	Berikutnya pilih hostname yang akan digunakan untuk Debian, hostname sama dengan nama komputer yang nantinya dapat diakses melalui jaringan. Seperti gambar di bawah ini.</string>
+    <string name="langkah_tigabelas">13. Kemudian tentukan domain yang akan digunakan, domain ini biasanya dimiliki oleh perusahaan. Nantinya domain ini akan berada dibelakang nama hostname. Pada kesempatan ini kita isi dengan iainbukittinggi.ac.id</string>
+    <string name="langkah_empatbelas">14. Tentukan root password, root password adalah password user yang memiliki autentikasi tertinggi di komputer Linux. Semua aktifitas modifikasi sistem hanya bisa dilakukan oleh root. Pada kesempatan kali ini kita isi dengan 12345</string>
+    <string name="langkah_limabelas">15. Kemudian tentukan User account yang akan anda gunakan untuk login ke sistem komputer debian.</string>
+    <string name="langkah_enambelas">16. Berikutnya muncul pengaturan user name dan passwor untuk login. Pasword kita isi dengan 12345</string>
+    <string name="langkah_tujuhbelas">17. Selanjutnya konfigurasi jam, pilih sesuai wilayah tinggal kita.</string>
+    <string name="langkah_lapanbelas">18. Berikutnya Partition Disk, pilih Guded – use entire disk lalu klik Continue.</string>
+    <string name="langkah_sembilanbelas">19. Tahap selanjutnya adalah pemeriksaan kelengkapan DVD, jika anda memiliki lebih dari satu buah DVD debian, maka klik yes. Kemudian masukan DVD Debian ke 2, lalu klik continue.</string>
+    <string name="langkah_duapuluh">20.	Jika sudah sampai pada DVD Debian terakhir, maka pilih No, dan masukan kembali DVD 1 Debian. Kemudian klik continue. (pada kesempatan ini kami hanya memiliki 2 buah DVD Debian 8.6.0)</string>
+    <string name="langkah_duasatu">21. Bila muncul jendela seperti gambar berikut ini, maka pilih no, dan klik continue.</string>
+    <string name="langkah_duadua">22. Tahap selanjutnya adalah tahap pemilihan paket software yang akan di install. Pilihlah seperti gambar berikut ini.</string>
+    <string name="langkah_duatiga">23. Berikutnya adalah instalasi boot loader. Ikuti seperti gambar di bawah ini.</string>
+    <string name="langkah_duaempat">24.	Terakhir adalah tahapan finish instalasi. Ikuti seperti gambar berikut ini.</string>
+    <string name="langkah_dualima">25. Selanjutnya tampil jendela seperti di bawah ini. Maka keluarkanlah DVD instalasi Ubuntu dari DVD Rom. Kemudian klik continue.</string>
+    <string name="langkah_duaenam">26. Setelah proses instalasi selesai dan komputer sudah restart, maka akan masuk ke halaman desktop dari Debian. Seperti gambar-gambar berikut ini.</string>
+
+    //text
+    <string name="satu">1. Pada tampilan jendela seperti gambar di bawah ini pilihlah install</string>
+    <string name="dua">2. Langkah berikutnya adalah pemilihan bahasa instalasi</string>
+    <string name="tiga">3. Berikutnya adalah pemilihan lokasi tempat kita berada</string>
+    <string name="empat">4. Berikutnya adalah pemilihan keyboard.</string>
+    <string name="lima">5. Apabila muncul jendela seperti di bawah ini. Pilih continue.</string>
+    <string name="enam">6. Apabila muncul jendela seperti di bawah ini. Pilih Do not configure the network at this time.</string>
+    <string name="tujuh">7.	Kemudian isikan nama host. Pilih continue.</string>
+    <string name="delapan">8. Isikan root pasword, kali ini kita isi dengan 12345 . Pilih continue.</string>
+    <string name="sembilan">9. Berikutnya isikan full name. Klik continue.</string>
+    <string name="sepuluh">10. Berikutnya isikan passwor untuk new user, kali ini kita isi dengan 12345. Pilih continue.</string>
+    <string name="sebelas">11. Kemudian pilih seperti gambar di bawah ini.</string>
+    <string name="duabelas">12.	Selanjutnya adalah partisi harddisk. Pilih pilihan pertama seperti gambar di bawah. </string>
+    <string name="tigabelas">13. Selanjutnya melakukan konfigurasi paket sesuai dengan jumlah DVD Debian 8.6.0 yang kita miliki.</string>
+    <string name="empatbelas">14. Berikutnya tampil seperti jendela berikut ini, pilih No.</string>
+    <string name="limabelas">15. Bagian pemilihan paket, hilangkan pilihan Debian desktop envorontmen pada bagian desktop karena kita akan menginstall menggunakan metode Texs atau CLI. Untuk menghilangkan tanda * pada paket yang tidak diinginkan gunakan tombol SPASI di keyboard. Untuk memberikan tanda * pada paket yang diinginkan tinggal tekan tombol SPASI di keyboard. Pilihlah paket seperti gambar di baawah ini.</string>
+    <string name="enambelas">16. Berikutnya adalah intalasi boot loader.</string>
+    <string name="enambelas2">Pada saat proses booting, program yang dijalankan pertama kali setelah BIOS selesai adalah GRUB (apbila telah diinstal di linux). GRUB (GRand Unified Bootloader), yaitu program kecil yang menampilkan pilihan sistem operasi pada saat proses booting sehingga nantinya bisa melakukan multiple boot. Sangat membantu untuk pilihan dual booting berbasis linux-windows. Berikut ini tampilan GRUB.</string>
+    <string name="tujuhbelas">17. Saat tampil jendela seperti di bawah ini, keluarkan DVD instalasi debian dari dalam DVD Room. Lalu pilih continue.</string>
+    <string name="lapanbelas">18. Setelah instalasi selesai dan komputer sudah restart, maka tampilan awal Debian 8.5.0 berbasis text (CLI (Command Line Interface)) adalah seperti berikut ini.</string>
+    <string name="sembilanbelas">19. Untuk login kita gunakan password root yang sudah kita atur saat peoses instalasi di langkah nomor 8 (pasword yang kita set sebelumnya yaitu 12345). Sedangkan usernya bisa diisi dengan root.</string>
+
+    <string name="pencapaian">Mahasiswa mampu melakukan praktek instalasi sistem operasi linux berbasis grafis dan text</string>
+    <string name="capaian_pembelajaran">CAPAIAN PEMBELAJARAN</string>
+
+</resources>

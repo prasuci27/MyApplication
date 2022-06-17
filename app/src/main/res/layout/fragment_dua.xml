@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".text.DuaFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/tiga"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivTiga"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dua"
+            app:layout_constraintTop_toBottomOf="@id/tiga"/>
+
+        <ImageView
+            android:id="@+id/ivTiga1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tiga"
+            app:layout_constraintTop_toBottomOf="@id/ivTiga"/>
+
+        <ImageView
+            android:id="@+id/ivTiga2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="200dp"
+            android:src="@drawable/empat"
+            app:layout_constraintTop_toBottomOf="@id/ivTiga1"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

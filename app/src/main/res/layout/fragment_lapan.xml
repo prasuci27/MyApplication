@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".text.LapanFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/duabelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/duabelas"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/ivDuabelas"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tujuhbelas"
+            app:layout_constraintTop_toBottomOf="@id/duabelas"/>
+
+        <ImageView
+            android:id="@+id/ivDuabelas1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/lapanbelas"
+            app:layout_constraintTop_toBottomOf="@id/ivDuabelas"/>
+
+        <ImageView
+            android:id="@+id/ivDuabelas2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/sembilanbelas"
+            app:layout_constraintTop_toBottomOf="@id/ivDuabelas1"/>
+
+        <ImageView
+            android:id="@+id/ivDuabelas3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/duapuluh"
+            app:layout_constraintTop_toBottomOf="@id/ivDuabelas2"/>
+
+        <ImageView
+            android:id="@+id/ivDuabelas4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/duasatu"
+            app:layout_constraintTop_toBottomOf="@id/ivDuabelas3"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

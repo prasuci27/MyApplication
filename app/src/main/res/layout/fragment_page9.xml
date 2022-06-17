@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gui.Page9Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/langkah_empatbelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:padding="8dp"
+            android:text="@string/langkah_empatbelas"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="o" />
+        
+        <ImageView
+            android:id="@+id/ivLangkah_empatbelas"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dtigabelas"
+            app:layout_constraintTop_toBottomOf="@id/langkah_empatbelas"/>
+
+        <TextView
+            android:id="@+id/langkah_limabelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/langkah_limabelas"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            app:layout_constraintTop_toBottomOf="@id/ivLangkah_empatbelas"
+            android:padding="8dp"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:id="@+id/ivLangkah_limabelas"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dempatbelas"
+            app:layout_constraintTop_toBottomOf="@id/langkah_limabelas"/>
+        
+        
+            
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
